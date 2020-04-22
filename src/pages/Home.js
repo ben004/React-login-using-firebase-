@@ -5,8 +5,8 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Welcome to CaliChat</h1>
-                <p><Link to="/login">click here</Link> to go to the login page</p> 
+                <b><h1>Welcome to React App</h1></b>
+                <p><Link to="/login">click here</Link> for login </p> 
             </div>
         )
     }

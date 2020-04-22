@@ -34,16 +34,18 @@ export default class Login extends Component {
     render() {
         return (
             <div>
+                You are in login Page: <br/><br/>
                 <form autoComplete="off" onSubmit={this.handleSubmit}>
                     <h1>
-                        Login to <Link to="/">
-                            CaliChat
-                        </Link>
-                    </h1>
+                        Login to fire Based react app</h1><h2><Link to="/">
+                            click here
+                        </Link> to back
+                    </h2>
                     <p>
-                        Fill in the details below to login to your account
+                        <b>Enter fillowing for login</b>
                     </p>
                     <div>
+                    <label>Enter Email:</label>
                         <input placeholder="Enter your email"
                          name="email"
                          type="email"
@@ -51,6 +53,7 @@ export default class Login extends Component {
                          value={this.state.email} />
                     </div>
                     <div>
+                        <label>Enter Password:</label>
                         <input placeholder="Enter your password"
                          name="password"
                          type="password"
@@ -63,7 +66,7 @@ export default class Login extends Component {
                     </div>
                     <hr />
                     <p>
-                        Don't have an account? <Link to="/signup">Sign up</Link>
+                        Create new account? <Link to="/signup">Sign up</Link>
                     </p>
                 </form>
             </div>
