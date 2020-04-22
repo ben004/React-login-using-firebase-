@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import { signin } from '../helpers/auth'
+import { signin } from '../auth'
 
 export default class Login extends Component {
 

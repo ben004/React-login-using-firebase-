@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom'
-import { auth } from '../services/firebase'
-import { signOut } from '../helpers/auth'
+import { auth } from '../firebase'
+import { signOut } from '../auth'
 
 export default class Chat extends Component {
 
